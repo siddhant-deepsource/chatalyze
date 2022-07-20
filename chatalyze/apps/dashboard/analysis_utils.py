@@ -44,6 +44,7 @@ def analyze_tg(analysis: ChatAnalysis) -> None:
     Args:
         analysis: analysis info model
     """
+    x=5
     try:
         with open(analysis.chat_file.path, "r", encoding="UTF8") as f:
             chat_history = json.load(f)
